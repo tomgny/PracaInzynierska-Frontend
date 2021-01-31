@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583333"
+   version="1.1"
+   id="svg17"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="dependency_l.svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="40.093679"
+     inkscape:cy="23.255929"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1465"
+     inkscape:window-height="1040"
+     inkscape:window-x="52"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="px" />
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:0.015865"
+       id="rect19"
+       width="1.6528503"
+       height="1.3964041"
+       x="-10.550265"
+       y="-6.2145295"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.0169609"
+       id="rect19-2"
+       width="1.8890855"
+       height="1.3964041"
+       x="-8.3802681"
+       y="-6.2051702"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.0169609"
+       id="rect19-2-0"
+       width="1.8890857"
+       height="1.3964041"
+       x="-5.9942913"
+       y="-6.1815476"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.263795"
+       id="rect70"
+       width="4.2042775"
+       height="0.34834927"
+       x="-9.0964088"
+       y="-4.8109951"
+       transform="matrix(-0.8189121,-0.57391895,0.81897233,-0.57383301,0,0)" />
+    <rect
+       style="fill:#000000;stroke-width:0.266009"
+       id="rect70-0"
+       width="4.2156582"
+       height="0.35326743"
+       x="-4.7914734"
+       y="4.8724813"
+       transform="matrix(0.8166258,-0.57716748,0.8166258,0.57716748,0,0)" />
+  </g>
+</svg>

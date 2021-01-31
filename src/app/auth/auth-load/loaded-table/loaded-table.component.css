@@ -1,0 +1,5 @@
+.table {
+  overflow-y: auto;
+  height: 350px;
+  display: block;
+}

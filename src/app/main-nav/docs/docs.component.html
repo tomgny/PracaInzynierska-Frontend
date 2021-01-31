@@ -1,0 +1,261 @@
+<main class="bg-dark">
+  <div class="container bg-dark pb-3">
+    <div class="position-relative overflow-hidden p-3 p-md-1 text-center bg-dark">
+      <div class=" col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 text-light">Przejdź do wyboru diagramów</h1>
+        <button mat-raised-button style="outline: none;" color="primary" routerLink="/diagram-choice">Wybierz</button>
+      </div>
+    </div>
+    <div class="bg-light d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-left text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <div class="centered-thumbnail">
+            <img src="\assets\diagram_thumbnail\class.svg" alt="Diagram klas" width="750" height="350">
+            <h1 class="display-5">Diagram klas</h1>
+          </div>
+          <p class="lead">Przedstawia strukturę systemu w modelach obiektowych przez ilustrację struktury
+            klas i zależności między nimi.</p>
+          <mat-list role="list">
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/class_mini.svg" alt="Klasa" class="element-thumbnail">
+              repzezentuje klasę, zawiera 3 pola: nazwa, metody oraz pola, w przypadku braku metod/pól można postawić
+              znak '-',
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/interface_mini.svg" alt="Interface" class="element-thumbnail">
+              repzezentuje interfejs, zawiera 3 pola: nazwa, metody oraz pola, w przypadku braku metod/pól można
+              postawić znak '-',
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/inherit_r.svg" alt="Dziedziczenie" class="element-thumbnail">
+              oznacza, że klasa z której strzałka jest wyprowadzona, dziedziczy z klasy do której strzałka jest
+              skierowana,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/implements_r.svg" alt="Implementacja" class="element-thumbnail">
+              oznacza, że klasa z której strzałka jest wyprowadzona, implementuje interfejs do którego strzałka jest
+              skierowana,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/dependency_r.svg" alt="Zależność" class="element-thumbnail">
+              oznacza, że klasa z której strzałka jest wyprowadzona, korzysta z klasy do
+              której strzałka jest
+              skierowana,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/association_r.svg" alt="Asocjacja" class="element-thumbnail">
+              oznacza, że klasa z której strzałka jest wyprowadzona, komunikuje się z klasą do której strzałka jest
+              skierowana,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/aggregation_r.svg" alt="Agregacja" class="element-thumbnail">
+              oznacza, że klasa z której strzałka jest wyprowadzona, komunikuje się z klasą do której strzałka jest
+              skierowana oraz może istnieć niezależnie od niej,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/composition_r.svg" alt="Kompozycja" class="element-thumbnail">
+              oznacza, że klasa z której strzałka jest wyprowadzona, komunikuje się z klasą do której strzałka jest
+              skierowana oraz nie może istnieć niezależnie od niej.
+            </mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light  w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <div class="centered-thumbnail">
+            <img src="\assets\diagram_thumbnail\sequence.svg" alt="Diagram sekwencji" width="750" height="350">
+            <h1 class="display-5">Diagram sekwencji</h1>
+          </div>
+          <p class="lead">Służy do prezentowania interakcji pomiędzy obiektami wraz z uwzględnieniem w czasie
+            komunikatów, jakie są przesyłane pomiędzy nimi.</p>
+          <mat-list role="list">
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/lifeline_object.svg" alt="Linia życia obiektu"
+                class="element-thumbnail">
+              oznacza linie życia, reprezentującą dany obiekt,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/lifeline_actor.svg" alt="Linia życia aktora"
+                class="element-thumbnail">
+              oznacza linie życia, reprezentującą aktora, pełni funkcję zewnętrzną w stosunku do systemu
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/lifeline_boundary.svg" alt="Linia życia graniczna"
+                class="element-thumbnail">
+              oznacza linie życia, reprezentujący interfejs między systemem a bytami poza nim,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/lifeline_control.svg" alt="Linia życia kontroli"
+                class="element-thumbnail">
+              oznacza linie życia, reprezentującą obiekt, używany do sterowania działaniem jednej lub wielu klas,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/lifeline_entity.svg" alt="Linia życia encji"
+                class="element-thumbnail">
+              oznacza linie życia, reprezentującą obiekt danych, które muszą być zachowane w systemie,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/activation.svg" alt="Aktywacja" class="element-thumbnail">
+              oznacza czas w którym dany obiekt jest aktywny,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/fragment.svg" alt="Fragment" class="element-thumbnail">
+              oznacza część diagramu, który rozszerza możliwości zawartych w sobie obiektów zależnie od skrótu w lewym
+              górnym rogu (alt, loop, itp), np. pętle czy poziom abstrakcji,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/message_synchronous.svg" alt="Komunikat synchroniczny"
+                class="element-thumbnail">
+              oznacza komunikat synchroniczny, co oznacza że obiekt musi czekać na odpowiedź,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/association_r.svg" alt="Asocjacja" class="element-thumbnail">
+              oznacza komunikat asynchroniczny, co oznacza że obiekt nie musi czekać na odpowiedź,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/dependency_l.svg" alt="Zależność" class="element-thumbnail">
+              oznacza komunikat zwrotny,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/message_synchronous_t.svg" alt="Diagram klas"
+                class="element-thumbnail">
+              oznacza komunikat wewnętrzny.
+            </mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-left text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <div class="centered-thumbnail">
+            <img src="\assets\diagram_thumbnail\use-case.svg" alt="Diagram przypadków użycia" width="750" height="350">
+            <h1 class="display-5">Diagram przypadków użycia</h1>
+          </div>
+          <p class="lead">Pozwala na graficzne zaprezentowanie funkcjonalność systemu wraz z jego otoczeniem
+            tak, jak są one widziane po stronie użytkownika.</p>
+          <mat-list role="list">
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/use_case.svg" alt="Przypadek użycia" class="element-thumbnail">
+              repzezentuje przypadek użycia, czyli zbiór powiązanych ze sobą celem scenariuszy,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/actor.svg" alt="Aktor" class="element-thumbnail">
+              repzezentuje aktora, który pełni role użytkownika(bądź innego bytu) będącego w interakcji z systemem,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/line_r.svg" alt="Asocjacja nieskierowana" class="element-thumbnail">
+              oznacza asocjację nieskierowaną, która opisuje komunikację,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/association_r.svg" alt="Asocjacja skierowana"
+                class="element-thumbnail">
+              oznacza asocjację skierowaną, która opisuje kto inicjuje daną usługę,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/implements_r.svg" alt="Implementacja" class="element-thumbnail">
+              oznacza związek zawierania lub rozszerzenia, który przypadek rozszerza swoją funkcjonalność o inny
+              przypadek,
+              dodatkowo powinien być opisany słowem 'include' jeżeli strzałka skierowana jest z bazowego przypadku w
+              kierunku zawieranego,
+              lub słowem 'extend' jeżeli strzałka skierowana jest z rozszerzającego przypadku w kierunku bazowego.
+            </mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-left text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <div class="centered-thumbnail">
+            <img src="\assets\diagram_thumbnail\components.svg" alt="Diagram komponentów" width="750" height="350">
+            <h1 class="display-5">Diagram komponentów</h1>
+          </div>
+          <p class="lead">Reprezentuje elementy oprogramowania i związki między nimi, ukazuje organizację i
+            zależności między komponentami.</p>
+          <mat-list role="list">
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/component.svg" alt="Komponent" class="element-thumbnail">
+              repzezentuje komponent, obsługujący daną funkcjonalność w systemie,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/port.svg" alt="Port" class="element-thumbnail">
+              repzezentuje port, za pomocą którego komponent może wymagać lub dostarczać interfejs,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/constraint.svg" alt="Warunek" class="element-thumbnail">
+              oznacza warunek lub ograniczenie, w celu zadeklarowania części semantyki elementu,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/line_r.svg" alt="Asocjacja nieskierowana" class="element-thumbnail">
+              oznacza asocjację nieskierowaną,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/required_r.svg" alt="Wymaganie interfejsu" class="element-thumbnail">
+              oznacza usługi oferowane przez komponent,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/interface_r.svg" alt="Dostarczenie interfejsu"
+                class="element-thumbnail">
+              oznacza usługi potrzebne dla komponent,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/aggregation_r.svg" alt="Agregacja" class="element-thumbnail">
+              oznacza, że element z której strzałka jest wyprowadzona, komunikuje się z elementem do której strzałka
+              jest
+              skierowana oraz może istnieć niezależnie od niej,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/composition_r.svg" alt="Kompozycja" class="element-thumbnail">
+              oznacza, że element z której strzałka jest wyprowadzona, komunikuje się z elementem do której strzałka
+              jest
+              skierowana oraz nie może istnieć niezależnie od niej,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/dependency_r.svg" alt="Zależność" class="element-thumbnail">
+              oznacza, że element z którego strzałka jest wyprowadzona, wymaga lub zależy od elementu do
+              której strzałka jest skierowana.
+            </mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-left text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <div class="centered-thumbnail">
+            <img src="\assets\diagram_thumbnail\deployment.svg" alt="Diagram rozlokowania" width="750" height="350">
+            <h1 class="display-5">Diagram rozlokowania</h1>
+          </div>
+          <p class="lead">Pozwala na modelowanie rozmieszczenia infrastruktury sprzętowej oraz plaform
+            użytkowania systemu.</p>
+          <mat-list role="list">
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/node.svg" alt="Węzeł" class="element-thumbnail">
+              reprezezentuje element hardware lub software,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/artifact.svg" alt="Artefakt" class="element-thumbnail">
+              reprezezentuje artefakt, który jest produktem powstałym podczas procesu tworzenia oprogramowania,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/component.svg" alt="Komponent" class="element-thumbnail">
+              repzezentuje komponent, obsługujący daną funkcjonalność w systemie,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/line_r.svg" alt="Asocjacja nieskierowana" class="element-thumbnail">
+              oznacza asocjację nieskierowaną, która opisuje komunikację,
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <img src="/assets/uml_class_diagram/dependency_r.svg" alt="Zależność" class="element-thumbnail">
+              oznacza, że element z którego strzałka jest wyprowadzona, wymaga lub zależy od elementu do
+              której strzałka jest skierowana.
+            </mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

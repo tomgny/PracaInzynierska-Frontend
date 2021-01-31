@@ -1,0 +1,21 @@
+<div class="backdrop">
+  <div class="alert-box">
+    <div class="alert-box-actions">
+      <mat-form-field class="example-form-field">
+        <mat-label>Nazwa diagramu</mat-label>
+        <input matInput type="text" [(ngModel)]="name">
+        <button mat-button *ngIf="name" matSuffix mat-icon-button aria-label="Clear" (click)="name = ''">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <button mat-raised-button color="accent" (click)="onSave()" *ngIf="user != null">Zapisz</button>
+      <a class="btn btn-outline-dark" role="button" style="text-transform:none" (click)="onLogin()"
+        *ngIf="user == null">
+        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+        Zaloguj przez Google
+      </a>
+      <button mat-raised-button color="primary" (click)="onClose()">Zamknij</button>
+    </div>
+  </div>
+</div>

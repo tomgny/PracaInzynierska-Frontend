@@ -1,0 +1,71 @@
+<main class="bg-dark">
+  <div class="album py-5 bg-dark">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col mb-4">
+          <div class="card shadow-sm" [routerLink]="['/diagram', 'class']" style="cursor: pointer; outline: none;">
+            <img src="\assets\diagram_thumbnail\class.svg" width="95%" height="225" style="margin: 5px;">
+            <div class="card-body">
+              <h2>Diagram klas</h2>
+              <p class="card-text">Przedstawia strukturę systemu w modelach obiektowych przez ilustrację struktury
+                klas i zależności między nimi.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card shadow-sm" [routerLink]="['/diagram', 'sequence']" style="cursor: pointer; outline: none;">
+            <img src="\assets\diagram_thumbnail\sequence.svg" width="95%" height="225" style="margin: 5px;">
+            <div class="card-body">
+              <h2>Diagram sekwencji</h2>
+              <p class="card-text">Służy do prezentowania interakcji pomiędzy obiektami wraz z uwzględnieniem w czasie
+                komunikatów, jakie są przesyłane pomiędzy nimi.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card shadow-sm" [routerLink]="['/diagram', 'use-case']" style="cursor: pointer; outline: none;">
+            <img src="\assets\diagram_thumbnail\use-case.svg" width="95%" height="225" style="margin: 5px;">
+            <div class="card-body" style="cursor: pointer; outline: none;">
+              <h2>Diagram przypadków użycia</h2>
+              <p class="card-text">Pozwala na graficzne zaprezentowanie funkcjonalność systemu wraz z jego otoczeniem
+                tak, jak są one widziane po stronie użytkownika.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card shadow-sm" [routerLink]="['/diagram', 'components']" style="cursor: pointer; outline: none;">
+            <img src="\assets\diagram_thumbnail\components.svg" width="95%" height="225" style="margin: 5px;">
+            <div class="card-body">
+              <h2>Diagram komponentów</h2>
+              <p class="card-text">Reprezentuje elementy oprogramowania i związki między nimi, ukazuje organizację i
+                zalezności między komponentami.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card shadow-sm" [routerLink]="['/diagram', 'deployment']" style="cursor: pointer; outline: none;">
+            <img src="\assets\diagram_thumbnail\deployment.svg" width="95%" height="225" style="margin: 5px;">
+            <div class="card-body">
+              <h2>Diagram rozlokowania</h2>
+              <p class="card-text">Pozwala na modelowanie rozmieszczenia infrastruktury sprzętowej oraz plaform
+                użytkowania systemu.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button mat-raised-button style="outline: none;" color="primary" routerLink="/">Powrót</button>
+      </div>
+    </div>
+  </div>
+</main>

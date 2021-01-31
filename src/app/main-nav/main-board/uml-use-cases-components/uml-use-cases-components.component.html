@@ -1,0 +1,25 @@
+<div class="container-fluid" #containerFluid>
+  <div class="row">
+    <div>
+      <div class="uml-components-list" #componentList>
+        <app-uml-component-item *ngFor="let item of umlUseCasesComponentsList" [umlItem]="item">
+        </app-uml-component-item>
+        <button mat-flat-button class="connector-button" (click)="toggleLine()">Line</button>
+        <div *ngIf="showLine">
+          <app-uml-component-item *ngFor="let item of umlLineConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleAssociation()">Association</button>
+        <div *ngIf="showAssociation">
+          <app-uml-component-item *ngFor="let item of umlAssociationConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleImplements()">Implements</button>
+        <div *ngIf="showImplements">
+          <app-uml-component-item *ngFor="let item of umlImplementsConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

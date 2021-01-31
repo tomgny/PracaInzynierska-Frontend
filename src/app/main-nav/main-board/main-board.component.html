@@ -1,0 +1,6 @@
+<app-uml-board></app-uml-board>
+<app-uml-class-components *ngIf="type === 'class'"></app-uml-class-components>
+<app-uml-sequence-components *ngIf="type === 'sequence'"></app-uml-sequence-components>
+<app-uml-use-cases-components *ngIf="type === 'use-case'"></app-uml-use-cases-components>
+<app-uml-components-elements *ngIf="type === 'components'"></app-uml-components-elements>
+<app-uml-deployment-elements *ngIf="type === 'deployment'"></app-uml-deployment-elements>

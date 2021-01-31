@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583333"
+   version="1.1"
+   id="svg17"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="lifeline_actor.svg">
+  <defs
+     id="defs11">
+    <rect
+       x="0.68487816"
+       y="7.9512684"
+       width="5.3955036"
+       height="1.453278"
+       id="rect961" />
+    <rect
+       x="0.35079125"
+       y="7.7842249"
+       width="10.106129"
+       height="2.3051997"
+       id="rect953" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="26.356875"
+     inkscape:cy="15.469565"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="rect840"
+       width="0.30067819"
+       height="1.0690781"
+       x="5.2284603"
+       y="3.3742781" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="rect840-8"
+       width="0.30067819"
+       height="1.0690781"
+       x="5.2451644"
+       y="6.3309469" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="rect840-3"
+       width="0.30067819"
+       height="1.0690781"
+       x="5.2451644"
+       y="4.8776684" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="path885"
+       cx="5.3704472"
+       cy="0.44266507"
+       r="0.25891733" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.300509"
+       id="rect887"
+       width="0.17075285"
+       height="0.92965448"
+       x="5.4552374"
+       y="-0.77923709"
+       transform="rotate(30)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.355814"
+       id="rect889"
+       width="0.20045213"
+       height="1.4198693"
+       x="5.261869"
+       y="0.71828675" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.229913"
+       id="rect887-6-4"
+       width="0.1503391"
+       height="0.61806077"
+       x="-1.2110652"
+       y="5.4706731"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.269928"
+       id="rect887-6-4-1"
+       width="0.1503391"
+       height="0.85192156"
+       x="-1.2110652"
+       y="4.6187515"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.300508"
+       id="rect887-3"
+       width="0.17075285"
+       height="0.92965448"
+       x="3.6614311"
+       y="4.5828581"
+       transform="rotate(-30)" />
+    <text
+       xml:space="preserve"
+       id="text951"
+       style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect953);"><tspan
+         style="visibility:hidden"
+         x="0.3515625"
+         y="13.630196"><tspan
+           dx="0 0.24115683 0.18379597 0.13900965 0.21411282"
+           style="font-size:0.352778px">Actor</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text959"
+       style="font-size:0.352778px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect961);"
+       transform="matrix(9.4441447,0,0,9.4441447,-5.5761099,-67.726185)"><tspan
+         x="0.68554688"
+         y="8.2730219"><tspan>Actor</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<div class="container-fluid" #containerFluid>
+  <div class="row">
+    <div>
+      <div class="uml-components-list" #componentList>
+        <app-uml-component-item *ngFor="let item of umlItemsList" [umlItem]="item">
+        </app-uml-component-item>
+        <button mat-flat-button class="connector-button" (click)="toggleInherit()">Inherit</button>
+        <div *ngIf="showInheritance">
+          <app-uml-component-item *ngFor="let item of umlInheritConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleImplements()">Implements</button>
+        <div *ngIf="showImplements">
+          <app-uml-component-item *ngFor="let item of umlImplementsConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleDependency()">Dependency</button>
+        <div *ngIf="showDependency">
+          <app-uml-component-item *ngFor="let item of umlDependencyConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleAssociation()">Association</button>
+        <div *ngIf="showAssociation">
+          <app-uml-component-item *ngFor="let item of umlAssociationConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleAggregation()">Aggregation</button>
+        <div *ngIf="showAggregation">
+          <app-uml-component-item *ngFor="let item of umlAggregationConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleComposition()">Composition</button>
+        <div *ngIf="showComposition">
+          <app-uml-component-item *ngFor="let item of umlCompositionConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

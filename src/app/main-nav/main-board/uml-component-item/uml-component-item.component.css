@@ -1,0 +1,18 @@
+.uml-component {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  align-items: center;
+  cursor: move;
+  z-index: 100 !important;
+
+}
+
+.uml-component:last-child {
+  margin-bottom: 5px;
+}

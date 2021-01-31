@@ -1,0 +1,12 @@
+<div class="container-fluid" #containerFluid>
+  <div class="row">
+    <div>
+      <div class="uml-components-list" #componentList>
+        <app-uml-component-item *ngFor="let item of umlSequenceComponentsList" [umlItem]="item">
+        </app-uml-component-item>
+        <app-uml-component-item *ngFor="let item of umlConnectorsList" [umlItem]="item">
+        </app-uml-component-item>
+      </div>
+    </div>
+  </div>
+</div>

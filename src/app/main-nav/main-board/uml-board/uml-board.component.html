@@ -1,0 +1,13 @@
+<div class="dropzoneContainer">
+  <div class="dropzone" #dropZone appDroppable [options]="{ accept: '.task' }" (dropping)="assignTask($event)"
+    (mousemove)="onMouseMove($event)" contenteditable="false">
+    <svg class="uml-diagram" #umlDiagram (click)="onClick($event)" (mousedown)="onMouseDown($event)">
+      <defs>
+        <pattern id="background" patternUnits="userSpaceOnUse" width="20" height="20">
+          <image href="./assets/uml_class_diagram/background.svg" x="0" y="0" width="20" height="20" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#background)" />
+    </svg>
+  </div>
+</div>

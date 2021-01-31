@@ -1,0 +1,36 @@
+<div class="container-fluid" #containerFluid>
+  <div class="row">
+    <div>
+      <div class="uml-components-list" #componentList>
+        <app-uml-component-item *ngFor="let item of umlComponentsElementsList" [umlItem]="item">
+        </app-uml-component-item>
+        <button mat-flat-button class="connector-button" (click)="toggleRequired()">Required interface</button>
+        <div *ngIf="showRequired">
+          <app-uml-component-item *ngFor="let item of umlRequiredConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleInterface()">Provided interface</button>
+        <div *ngIf="showInterface">
+          <app-uml-component-item *ngFor="let item of umlInterfaceConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleAggregation()">Aggregation</button>
+        <div *ngIf="showAggregation">
+          <app-uml-component-item *ngFor="let item of umlAggregationConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button color="accent" class="connector-button"
+          (click)="toggleComposition()">Composition</button>
+        <div *ngIf="showComposition">
+          <app-uml-component-item *ngFor="let item of umlCompositionConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+        <button mat-flat-button class="connector-button" (click)="toggleDependency()">Dependency</button>
+        <div *ngIf="showDependency">
+          <app-uml-component-item *ngFor="let item of umlDependencyConnectorsList" [umlItem]="item">
+          </app-uml-component-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

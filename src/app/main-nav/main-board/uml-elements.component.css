@@ -1,0 +1,47 @@
+.uml-components-list {
+  width: 100%;
+  background:#6c757d
+  ;
+  display: inline-block;
+  height: 100%;
+}
+
+.container-fluid {
+  width: 15%;
+  float: right;
+  height: 100%;
+  background:#6c757d
+  ;
+}
+
+.connector-button{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+  outline: 0;
+  color: #f8f9fa;
+  background-color: #673AB7;
+}
+
+.uml-component {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  /* margin-right: 5px; */
+  margin-top: 15px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  align-items: center;
+  cursor: move;
+  /* border: solid 1px black; */
+
+  z-index: 100 !important;
+  /* justify-content: space-between; */
+  /* box-sizing: border-box; */
+  /* flex-grow: 1; */
+  /* flex-basis: 0; */
+
+}

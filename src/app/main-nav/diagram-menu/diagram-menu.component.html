@@ -1,0 +1,15 @@
+<button mat-button [matMenuTriggerFor]="beforeMenu" style="outline: none;">Menu</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before">
+  <button mat-menu-item style="outline: inherit;" routerLink="/diagram-choice">Nowy</button>
+  <button mat-menu-item style="outline: inherit;" (click)="loadFromServer()">Wczytaj</button>
+  <button mat-menu-item style="outline: inherit;" (click)="saveOnServer()">Zapisz na serwerze</button>
+  <button mat-menu-item [matMenuTriggerFor]="saveDisc" style="outline: inherit;">Zapisz na dysku</button>
+  <button mat-menu-item style="outline: inherit;" (click)="clearBoard()">Wyczyść</button>
+  <button mat-menu-item style="outline: inherit;" (click)="logout()" *ngIf="user">Wyloguj</button>
+</mat-menu>
+
+<mat-menu #saveDisc="matMenu">
+  <button mat-menu-item style="outline: inherit;" (click)="saveOnDisc('svg')">Zapisz jako SVG</button>
+  <button mat-menu-item style="outline: inherit;" (click)="saveOnDisc('png')">Zapisz jako PNG</button>
+  <button mat-menu-item style="outline: inherit;" (click)="saveOnDisc('jpg')">Zapisz jako JPG</button>
+</mat-menu>

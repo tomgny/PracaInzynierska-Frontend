@@ -1,0 +1,22 @@
+<table class="table" #loadedTable>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Diagram type</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of table; index as i">
+      <th scope="row">{{ i+1 }}</th>
+      <td scope="row">{{ row.diagramName }}</td>
+      <td scope="row">{{ row.diagramType }}</td>
+      <td scope="row"><button mat-raised-button color="primary" (click)="loadFromServer(row)">Wybierz</button></td>
+      <td scope="row"><button mat-mini-fab color="warn" (click)="deleteFromServer(row.id, i)">
+          <mat-icon>delete</mat-icon>
+        </button></td>
+    </tr>
+  </tbody>
+</table>
