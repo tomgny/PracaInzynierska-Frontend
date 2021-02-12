@@ -1,4 +1,5 @@
-# UmlCreateProject
+# Front-end pracy inżynierskiej
+Wykorzystujący framework Angular, Angular Material oraz Bootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
